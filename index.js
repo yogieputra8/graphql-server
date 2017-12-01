@@ -13,7 +13,7 @@ const schema = makeExecutableSchema({
 
 mongoose.connect('mongodb://localhost/test');
 const Cat = mongoose.model('Cat', { name: String });
-const PORT = 3000;
+const PORT = 7000;
 var app = express();
 
 app.use('/graphql', bodyParser.json(), graphqlExpress({ schema, context: { Cat } }));
