@@ -10,7 +10,6 @@
 3. Run `npm start` and access graphiql from browser `http://localhost:7000/graphiql`
 
 <br/>
-See live here: `172.104.50.9:7000/graphiql`
 
 
 
